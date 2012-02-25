@@ -61,7 +61,7 @@ namespace facebook_csharp_sdk_canvas_aspnet_mvc.App_Start
                                 {
                                     AppId = ""
                                     AppSecret = ""
-                                    CanvasPageName = ""  /* only the canvas page name and not the full url */
+                                    CanvasPageName = "" /* only the canvas page name and not the full url */
                                     CanvasUrl = "http://localhost:2408/",
                                     SecureCanvasUrl = "https://localhost:44300/"
                                 })
@@ -86,8 +86,11 @@ namespace facebook_csharp_sdk_canvas_aspnet_mvc.App_Start
                                                     FacebookClient = fb
                                                 };
 
+                        fb.AppId = canvasContext.AppSettings.AppId;
+                        fb.AppSecret = canvasContext.AppSettings.AppSecret;
+
                         object signedRequest;
-                        if (fb.TryParseSignedRequest(canvasContext.AppSettings.AppSecret, HttpContext.Current.Request["signed_request"], out signedRequest))
+                        if (fb.TryParseSignedRequest(HttpContext.Current.Request["signed_request"], out signedRequest))
                         {
                             canvasContext.SignedRequest = new MyFacebookSignedRequest(signedRequest);
                             if (!string.IsNullOrWhiteSpace(canvasContext.SignedRequest.AccessToken))
