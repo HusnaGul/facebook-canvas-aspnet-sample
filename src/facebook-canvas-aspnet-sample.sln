@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{86EF77
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySampleApp", "MySampleApp\MySampleApp.csproj", "{317CB7F9-277B-46AA-8614-DCE1792045B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facebook-canvas-aspnet-sample", "facebook_csharp_sdk_canvas_aspnet_mvc\facebook-canvas-aspnet-sample.csproj", "{AC427156-EC87-4AA7-AC2F-D7CE5ABD724A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facebook-canvas-aspnet-sample", "facebook-canvas-aspnet-sample\facebook-canvas-aspnet-sample.csproj", "{AC427156-EC87-4AA7-AC2F-D7CE5ABD724A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

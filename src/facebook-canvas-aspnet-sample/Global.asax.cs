@@ -1,6 +1,6 @@
 ﻿
 
-namespace facebook_csharp_sdk_canvas_aspnet_mvc
+namespace faceboo_canvas_aspnet_sample
 {
     using System.Web.Mvc;
     using System.Web.Routing;
