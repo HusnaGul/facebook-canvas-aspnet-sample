@@ -1,7 +1,7 @@
-[assembly: WebActivator.PreApplicationStartMethod(typeof(facebook_csharp_sdk_canvas_mvc.App_Start.NinjectMVC3), "Start")]
-[assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(facebook_csharp_sdk_canvas_mvc.App_Start.NinjectMVC3), "Stop")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(facebook_csharp_sdk_canvas_aspnet_mvc.App_Start.NinjectMVC3), "Start")]
+[assembly: WebActivator.ApplicationShutdownMethodAttribute(typeof(facebook_csharp_sdk_canvas_aspnet_mvc.App_Start.NinjectMVC3), "Stop")]
 
-namespace facebook_csharp_sdk_canvas_mvc.App_Start
+namespace facebook_csharp_sdk_canvas_aspnet_mvc.App_Start
 {
     using System.Collections.Generic;
     using System.Web;

@@ -1,5 +1,5 @@
 ﻿
-namespace facebook_csharp_sdk_canvas_mvc.Controllers
+namespace facebook_csharp_sdk_canvas_aspnet_mvc.Controllers
 {
     using System.Linq;
     using System.Web.Mvc;

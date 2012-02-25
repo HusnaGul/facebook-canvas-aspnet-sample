@@ -1,6 +1,6 @@
 ﻿
 
-namespace facebook_csharp_sdk_canvas_mvc
+namespace facebook_csharp_sdk_canvas_aspnet_mvc
 {
     using System.Web.Mvc;
     using System.Web.Routing;
